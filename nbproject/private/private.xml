@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="Group 20240713-01:38:30">
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/web/viewCart.jsp</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/filter/AuthenFilter.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/UpdateProductController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/DeleteController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/utils/JavaMailUtils.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/products/ProductDTO.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/LogoutController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/utils/DBUtils.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/web/login.jsp</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/CreateUserController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/web/error.jsp</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/LoginController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/AddController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/CheckOutController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/DeleteProductController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/products/ProductError.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/shopping/Cart.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/EditController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/CreateProductController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/SearchController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/web/user.jsp</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/products/ProductDAO.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/MainController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/users/UserError.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/UpdateController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/users/UserDTO.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/SearchProductController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/shopping/Product.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/web/admin.jsp</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/users/UserDAO.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/ViewController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/web/createProduct.jsp</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/web/createUser.jsp</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/web/adminProduct.jsp</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/RemoveController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/web/shopping.jsp</file>
+        </group>
+        <group>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/web/lastuser.jsp</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/users/UserDAO.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/web/error.jsp</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/ViewController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/LoginController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/UpdateProductController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/SearchTopController.java</file>
+            <file>file:/C:/Users/Hammo/Desktop/OfficeStore/src/java/controllers/RemoveController.java</file>
+        </group>
+    </open-files>
+</project-private>
