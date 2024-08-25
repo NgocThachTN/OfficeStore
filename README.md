@@ -49,5 +49,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 **Truong Nguyen Ngoc Thach**  
-Email: your-email@example.com  
+Email: ngocthachtruongnguyen@gmail.com
 GitHub: [NgocThachTN](https://github.com/NgocThachTN)
