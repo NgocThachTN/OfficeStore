@@ -18,34 +18,122 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f2f5;
+            color: #1a1a1a;
         }
-        img {
-            max-height: 100%;
-            max-width: 100%;
-            width: 100%;
+
+        .navbar {
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .product-card {
-            margin-bottom: 1.5rem;
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 600;
         }
-        .add-button {
-            color: #fff;
-            background-color: #333 !important;
-            border-color: #333 !important;
-        }
+
         header {
-            padding: 2%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 0;
+            margin-bottom: 2rem;
             text-align: center;
         }
+
+        header h1 {
+            font-weight: 700;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .product-card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        .card-title {
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .card-text {
+            color: #4a5568;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .add-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+            border: none !important;
+            color: white !important;
+            font-weight: 500;
+            padding: 0.5rem 1.5rem;
+            transition: opacity 0.2s;
+        }
+
+        .add-button:hover {
+            opacity: 0.9;
+        }
+
+        .form-select {
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .pagination-container {
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .pagination-container .btn {
+            margin: 0 0.2rem;
+            border-radius: 8px;
+            min-width: 40px;
+            height: 40px;
+            line-height: 40px;
+            padding: 0;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .pagination-container .btn:hover {
+            background-color: #667eea;
+            color: white;
+        }
+
         .center {
-            margin: auto;
-            padding: 10px;
-            text-align: center;
-            font-size: 30px;
+            background-color: rgba(255,255,255,0.9);
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .product-card img {
+                height: 180px;
+            }
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <c:choose>
@@ -96,8 +184,8 @@
                 </div>  
                 <div class="row">
             </div>  
-            <div class="container">
-                <div class="row">
+            <div class="container py-4">
+                <div class="row g-4">
                     <c:if test="${not empty requestScope.list}">
                         <c:forEach var="product" items="${requestScope.list}">
                             <c:if test="${product.status && product.quantity > 0}">
@@ -131,7 +219,7 @@
                         </c:forEach>
                     </c:if>
                 </div>
-                <div class="d-flex justify-content-center mt-3">
+                <div class="pagination-container d-flex justify-content-center">
                     <c:forEach begin="1" end="${endPage}" var="index">
                         <a href="ViewController?index=${index}" class="btn btn-light btn-sm m-1">${index}</a>
                     </c:forEach>
